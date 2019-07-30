@@ -1,0 +1,12 @@
+.message-wrapper {
+    position: relative;
+    left:0;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    height: 200px;
+}

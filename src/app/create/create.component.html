@@ -1,0 +1,35 @@
+<form action="">
+    <div class="form-group">
+        <h1>
+            <small>
+                Upload your pet's picture:
+            </small>
+        </h1>
+        <div class="input-group mb-3">
+            <label for="upload_pic"></label>
+            <input type="file" id="upload_pic" class=" text-white bg-dark form-control-file">
+        </div>
+        <h1>
+            <small>
+                <label for="bio">Pet's bio:</label>
+            </small>
+        </h1>
+        <textarea class="form-control" placeholder="Your pet's bio goes here" id="bio" cols="10" rows="10"></textarea>
+
+        <h1>
+            <small>
+                <label for="author">Wrote by ...</label>
+            </small>
+
+        </h1>
+        <input type="text" id="author" class="form-control" 
+        placeholder="Your name goes here"  [(ngModel)]="inputFile" 
+        name="author" (change)="getValue(inputFile)" 
+        required>
+
+    </div>
+    <span>
+        <img src="" alt="" class="img-rounded"> 
+    </span>
+    <button class="btn btn-primary">Upload <i class="fas fa-rocket"></i></button>
+</form>

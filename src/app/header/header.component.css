@@ -1,0 +1,21 @@
+
+header {
+    background:black;
+    padding: 15px;
+}
+
+header h1 {
+    margin:0px;
+    color:white;
+}
+
+header i {
+    font-size: 25px;
+    transition: all 0.5s ease;
+}
+
+header i:hover {
+    text-shadow:3px 13px 30px red;
+    font-size: 30px;
+    color: red;
+}

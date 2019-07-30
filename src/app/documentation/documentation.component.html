@@ -1,0 +1,10 @@
+<div class="alert alert-info">
+    Les différentes biographies de chaque animal seront affichées ici.
+</div>
+<div class="content-container" *ngIf="documentation.length === 0; then noContent">
+
+</div>
+<ng-template #Content></ng-template>
+<ng-template #noContent>
+    <h2>Aucune biographie n'est disponible pour le moment.</h2>
+</ng-template>

@@ -1,0 +1,6 @@
+p {
+    max-width: 350px;
+}
+::placeholder {
+    color: rgba(0, 0, 0, rgb(167, 165, 165))
+}

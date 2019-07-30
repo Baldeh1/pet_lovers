@@ -1,0 +1,18 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Server of my angular 8 application",
+  "main": "server.config.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "RMZ",
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "^2.17.1",
+    "rxjs": "^6.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}

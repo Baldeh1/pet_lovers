@@ -1,0 +1,10 @@
+li.space-between {
+    margin-right: 0.5em;
+}
+
+a.text-centered {
+ padding-left: 0.5em;
+ padding-right: 0.5em;
+ padding-top: 0.5em;
+ padding-bottom: 0.5em;   
+}
